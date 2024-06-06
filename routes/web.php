@@ -23,3 +23,4 @@ Route::view('/pages/datatables', 'pages.datatables');
 Route::view('/pages/blank', 'pages.blank');
 
 Route::view('/login', 'pages.login');
+Route::view('/calendar', 'pages.calendar');
