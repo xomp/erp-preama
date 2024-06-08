@@ -10,7 +10,7 @@
 
 	<li class="nav-main-heading">Менеджер</li>
 	<li class="nav-main-item">
-		<a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" href="/deals">
+		<a class="nav-main-link nav-main-link-submenu{{ request()->is('deals') ? ' active' : '' }}" data-toggle="submenu" href="/deals">
 		<i class="nav-main-link-icon fa fa-display"></i>
 		<span class="nav-main-link-name">Сделки</span>
 		</a>
@@ -29,13 +29,13 @@
 		</ul>
 	</li>
 	<li class="nav-main-item">
-		<a class="nav-main-link" href="/sources">
+		<a class="nav-main-link{{ request()->is('sources') ? ' active' : '' }}" href="/sources">
 		<i class="nav-main-link-icon fa fa-sitemap"></i>
 		<span class="nav-main-link-name">Источники</span>
 		</a>
 	</li>
 	<li class="nav-main-item">
-		<a class="nav-main-link" href="/conversion">
+		<a class="nav-main-link{{ request()->is('conversion') ? ' active' : '' }}" href="/conversion">
 		<i class="nav-main-link-icon fa fa-chart-simple"></i>
 		<span class="nav-main-link-name">Конверсия</span>
 		</a>
@@ -43,13 +43,13 @@
 	
 	<li class="nav-main-heading">Рекрутер</li>
 	<li class="nav-main-item">
-		<a class="nav-main-link" href="/candidates">
+		<a class="nav-main-link{{ request()->is('candidates') ? ' active' : '' }}" href="/candidates">
 			<i class="nav-main-link-icon fa fa-address-card"></i>
 			<span class="nav-main-link-name">Соискатели</span>
 		</a>
 	</li>
 	<li class="nav-main-item">
-		<a class="nav-main-link" href="/companies">
+		<a class="nav-main-link{{ request()->is('companies') ? ' active' : '' }}" href="/companies">
 			<i class="nav-main-link-icon fa fa-rectangle-list"></i>
 			<span class="nav-main-link-name">Компании</span>
 		</a>
@@ -61,7 +61,7 @@
 		</a>
 	</li>
 	<li class="nav-main-item">
-		<a class="nav-main-link" href="/documents">
+		<a class="nav-main-link{{ request()->is('documents') ? ' active' : '' }}" href="/documents">
 			<i class="nav-main-link-icon fa fa-file-lines"></i>
 			<span class="nav-main-link-name">Документы</span>
 		</a>
@@ -69,19 +69,19 @@
 	
 	<li class="nav-main-heading">Другое</li>
 	<li class="nav-main-item">
-		<a class="nav-main-link" href="/users">
+		<a class="nav-main-link{{ request()->is('users') ? ' active' : '' }}" href="/users">
 			<i class="nav-main-link-icon fa fa-users"></i>
 			<span class="nav-main-link-name">Пользователи</span>
 		</a>
 	</li>
 	<li class="nav-main-item">
-		<a class="nav-main-link" href="/integrations">
+		<a class="nav-main-link{{ request()->is('integrations') ? ' active' : '' }}" href="/integrations">
 			<i class="nav-main-link-icon fa fa-bolt"></i>
 			<span class="nav-main-link-name">Интеграции</span>
 		</a>
 	</li>
 	<li class="nav-main-item">
-		<a class="nav-main-link" href="/settings">
+		<a class="nav-main-link{{ request()->is('settings') ? ' active' : '' }}" href="/settings">
 			<i class="nav-main-link-icon fa fa-gear"></i>
 			<span class="nav-main-link-name">Настройки</span>
 		</a>

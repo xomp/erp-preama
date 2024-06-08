@@ -16,11 +16,22 @@ Route::get('/users', function () {
 // Example Routes
 Route::view('/', 'landing');
 Route::match(['get', 'post'], '/dashboard', function(){
-    return view('dashboard');
+    return view('pages.dashboard');
 });
+
+Route::view('/login', 'pages.login');
+
 Route::view('/pages/slick', 'pages.slick');
 Route::view('/pages/datatables', 'pages.datatables');
 Route::view('/pages/blank', 'pages.blank');
 
-Route::view('/login', 'pages.login');
+Route::view('/deals', 'pages.deals');
+Route::view('/sources', 'pages.sources');
+Route::view('/conversion', 'pages.conversion');
+Route::view('/candidates', 'pages.candidates');
+Route::view('/companies', 'pages.companies');
 Route::view('/calendar', 'pages.calendar');
+Route::view('/documents', 'pages.documents');
+Route::view('/users', 'pages.users');
+Route::view('/integrations', 'pages.integrations');
+Route::view('/settings', 'pages.settings');

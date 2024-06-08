@@ -7,11 +7,8 @@
 
   <title>Preama ERP</title>
 
-  <meta name="description" content="">
-  <meta name="author" content="">
-
   <!-- Icons -->
-  <link rel="shortcut icon" href="{{ asset('media/favicons/favicon.png') }}">
+  <link rel="icon" href="{{ asset('favicon.ico') }}">
 
   <!-- Modules -->
   @yield('css')
