@@ -16,10 +16,10 @@
 		</a>
 		<ul class="nav-main-submenu">
 			<li class="nav-main-item">
-				<a class="nav-main-link" href="/deals">
+				<a class="nav-main-link" href="/deals/Преама">
 					<span class="nav-main-link-name">Преама</span>
 				</a>
-				<a class="nav-main-link" href="/deals">
+				<a class="nav-main-link" href="/deals/Константа">
 					<span class="nav-main-link-name">Константа</span>
 				</a>
 				<a class="nav-main-link" href="/deals">

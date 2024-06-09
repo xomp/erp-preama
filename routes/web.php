@@ -25,7 +25,10 @@ Route::view('/pages/slick', 'pages.slick');
 Route::view('/pages/datatables', 'pages.datatables');
 Route::view('/pages/blank', 'pages.blank');
 
-Route::view('/deals', 'pages.deals');
+Route::get('/deals/{pipeline?}', function($pipeline = 'Все сделки'){
+    return view('pages.deals', ['pipeline' => $pipeline]);
+});
+
 Route::view('/sources', 'pages.sources');
 Route::view('/conversion', 'pages.conversion');
 Route::view('/candidates', 'pages.candidates');

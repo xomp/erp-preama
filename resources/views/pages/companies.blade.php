@@ -19,56 +19,88 @@
 
   <!-- Page Content -->
   <div class="content">
+
     <div class="row items-push">
       <div class="col-md-6 col-xl-4">
+        <!-- Alternative Project #1 -->
         <div class="block block-rounded h-100 mb-0">
-          <div class="block-header block-header-default">
-            <h3 class="block-title">
-              Welcome to your app
+          <div class="block-content bg-gd-primary py-6 text-center" style="background: linear-gradient(135deg, #4fbbee, #a2d28b) !important">
+            <h3 class="fs-4 fw-bold mb-1">
+              <a class="text-white link-fx" href="javascript:void(0)">Биохимпласт</a>
             </h3>
+            <h4 class="fs-6 text-white-75 mb-0">Москва</h4>
           </div>
-          <div class="block-content">
-            <p>
-              We’ve put everything together, so you can start working on your Laravel project as soon as possible! Dashmix assets are integrated and work seamlessly with Laravel Vite, so you can use the npm scripts as you would in any other Laravel project.
-            </p>
-            <p>
-              Feel free to use any examples you like from the full HTML version to build your own pages.
-            </p>
-            <p class="fw-semibold">
-              Wish you all the best and happy coding!
-            </p>
+          <div class="block-content block-content-full bg-body-light">
+            <div class="row g-sm">
+              <div class="col-6">
+                <a class="btn btn-sm w-100 btn-alt-secondary" href="javascript:void(0)">
+                  <i class="fa fa-user-plus me-1 text-muted"></i> Сотрудники
+                </a>
+              </div>
+              <div class="col-6">
+                <a class="btn btn-sm w-100 btn-alt-secondary" href="javascript:void(0)">
+                  <i class="fa fa-eye me-1 text-muted"></i> Обзор
+                </a>
+              </div>
+            </div>
           </div>
         </div>
+        <!-- END Alternative Project #1 -->
       </div>
       <div class="col-md-6 col-xl-4">
+        <!-- Alternative Project #2 -->
         <div class="block block-rounded h-100 mb-0">
-          <div class="block-header block-header-default">
-            <h3 class="block-title">
-              Block Title
+          <div class="block-content bg-gd-dusk py-6 text-center" style="background: linear-gradient(135deg, #dbfe01, #99ae18) !important">
+            <h3 class="fs-4 fw-bold mb-1">
+              <a class="text-white link-fx" href="javascript:void(0)">Золотое Яблоко</a>
             </h3>
+            <h4 class="fs-6 text-white-75 mb-0">Новосибирск</h4>
           </div>
-          <div class="block-content font-size-sm text-muted">
-            <p>
-              ...
-            </p>
+          <div class="block-content block-content-full bg-body-light">
+            <div class="row g-sm">
+              <div class="col-6">
+                <a class="btn btn-sm w-100 btn-alt-secondary" href="javascript:void(0)">
+                  <i class="fa fa-user-plus me-1 text-muted"></i> Сотрудники
+                </a>
+              </div>
+              <div class="col-6">
+                <a class="btn btn-sm w-100 btn-alt-secondary" href="javascript:void(0)">
+                  <i class="fa fa-eye me-1 text-muted"></i> Обзор
+                </a>
+              </div>
+            </div>
           </div>
         </div>
+        <!-- END Alternative Project #2 -->
       </div>
-      <div class="col-md-6 col-xl-4">
+      <div class="col-xl-4">
+        <!-- Alternative Project #3 -->
         <div class="block block-rounded h-100 mb-0">
-          <div class="block-header block-header-default">
-            <h3 class="block-title">
-              Block Title
+          <div class="block-content bg-gd-lake py-6 text-center" style="background: linear-gradient(135deg, #db1b22, #8f1216) !important">
+            <h3 class="fs-4 fw-bold mb-1">
+              <a class="text-white link-fx" href="javascript:void(0)">Фаворит</a>
             </h3>
+            <h4 class="fs-6 text-white-75 mb-0">Москва</h4>
           </div>
-          <div class="block-content font-size-sm text-muted">
-            <p>
-              ...
-            </p>
+          <div class="block-content block-content-full bg-body-light">
+            <div class="row g-sm">
+              <div class="col-6">
+                <a class="btn btn-sm w-100 btn-alt-secondary" href="javascript:void(0)">
+                  <i class="fa fa-user-plus me-1 text-muted"></i> Сотрудники
+                </a>
+              </div>
+              <div class="col-6">
+                <a class="btn btn-sm w-100 btn-alt-secondary" href="javascript:void(0)">
+                  <i class="fa fa-eye me-1 text-muted"></i> Обзор
+                </a>
+              </div>
+            </div>
           </div>
         </div>
+        <!-- END Alternative Project #3 -->
       </div>
     </div>
+
   </div>
   <!-- END Page Content -->
 @endsection
