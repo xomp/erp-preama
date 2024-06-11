@@ -61,19 +61,20 @@
                     e.draggedEl.parentNode.remove()
                 },
                 events: [{
-                    title: "Gaming Day",
+                    title: "Михаил - Золотое Яблоко",
                     start: new Date(n,a,1),
                     allDay: !0
                 }, {
-                    title: "Skype Meeting",
-                    start: new Date(n,a,3)
+                    title: "Мадина",
+                    start: new Date(n,a,3),
+                    color: "#82b54b"
                 }, {
-                    title: "Project X",
+                    title: "Ахмед - Биохимпласт",
                     start: new Date(n,a,9),
                     end: new Date(n,a,12),
                     allDay: !0,
                     color: "#e04f1a"
-                }, {
+                }, /* {
                     title: "Work",
                     start: new Date(n,a,17),
                     end: new Date(n,a,19),
@@ -117,7 +118,7 @@
                     allDay: !0,
                     url: "http://twitter.com/pixelcave",
                     color: "#3c90df"
-                }]
+                } */]
             }).render()
         }
         static init() {

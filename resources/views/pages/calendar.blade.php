@@ -6,7 +6,7 @@
 <script defer src="/js/plugins/fullcalendar/ru.global.min.js"></script>
 
 <!-- Page JS Code -->
-<script defer src="/js/be_comp_calendar.js"></script>
+<script defer src="/js/calendar.js"></script>
 @endsection
 
 @section('css')
@@ -20,8 +20,8 @@
 <!-- Full Calendar (functionality is initialized in js/pages/be_comp_calendar.min.js which was auto compiled from _js/pages/be_comp_calendar.js ) -->
 <!-- For more info and examples you can check out https://fullcalendar.io/ -->
 <div class="row g-0 flex-xl-grow-1">
-	<div class="col-xl-3">
-	<div class="content ">
+	<div class="col-xl-3" style="display:none">
+	<div class="content">
 		<!-- Toggle Side Content -->
 		<div class="d-xl-none push">
 		<!-- Class Toggle, functionality initialized in Helpers.dmToggleClass() -->
@@ -84,7 +84,7 @@
 		<!-- END Side Content -->
 	</div>
 	</div>
-	<div class="col-xl-9 bg-body-dark">
+	<div class="col-xl-12 bg-body-dark">
 	<div class="content">
 		<div class="block block-rounded">
 		<div class="block-content block-content-full">

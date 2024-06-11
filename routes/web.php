@@ -32,6 +32,7 @@ Route::get('/deals/{pipeline?}', function($pipeline = 'Все сделки'){
 Route::view('/sources', 'pages.sources');
 Route::view('/conversion', 'pages.conversion');
 Route::view('/candidates', 'pages.candidates');
+Route::view('/candidate', 'pages.candidate');
 Route::view('/companies', 'pages.companies');
 Route::view('/calendar', 'pages.calendar');
 Route::view('/documents', 'pages.documents');

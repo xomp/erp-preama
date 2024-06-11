@@ -19,55 +19,61 @@
 
   <!-- Page Content -->
   <div class="content">
-    <div class="row items-push">
-      <div class="col-md-6 col-xl-4">
-        <div class="block block-rounded h-100 mb-0">
-          <div class="block-header block-header-default">
-            <h3 class="block-title">
-              Welcome to your app
-            </h3>
+    <div class="row">
+
+    <div class="col-md-6 col-xl-3">
+        <a class="block block-rounded block-link-shadow text-center" href="javascript:void(0)">
+          <div class="block-content block-content-full bg-gd-sea">
+            <img class="img-avatar img-avatar-thumb" src="{{ asset('media/avatars/avatar15.jpg') }}" alt="">
           </div>
-          <div class="block-content">
-            <p>
-              We’ve put everything together, so you can start working on your Laravel project as soon as possible! Dashmix assets are integrated and work seamlessly with Laravel Vite, so you can use the npm scripts as you would in any other Laravel project.
-            </p>
-            <p>
-              Feel free to use any examples you like from the full HTML version to build your own pages.
-            </p>
-            <p class="fw-semibold">
-              Wish you all the best and happy coding!
+          <div class="block-content block-content-full">
+            <p class="fw-semibold mb-0">Алексей Шаповалов</p>
+            <p class="fs-sm fw-medium text-muted mb-0">
+              Администратор
             </p>
           </div>
-        </div>
+        </a>
       </div>
-      <div class="col-md-6 col-xl-4">
-        <div class="block block-rounded h-100 mb-0">
-          <div class="block-header block-header-default">
-            <h3 class="block-title">
-              Block Title
-            </h3>
+      <div class="col-md-6 col-xl-3">
+        <a class="block block-rounded block-link-shadow text-center" href="javascript:void(0)">
+          <div class="block-content block-content-full bg-gd-fruit">
+            <img class="img-avatar img-avatar-thumb" src="{{ asset('media/avatars/avatar15.jpg') }}" alt="">
           </div>
-          <div class="block-content font-size-sm text-muted">
-            <p>
-              ...
+          <div class="block-content block-content-full">
+            <p class="fw-semibold mb-0">Елена К.</p>
+            <p class="fs-sm fw-medium text-muted mb-0">
+              Менеджер
             </p>
           </div>
-        </div>
+        </a>
       </div>
-      <div class="col-md-6 col-xl-4">
-        <div class="block block-rounded h-100 mb-0">
-          <div class="block-header block-header-default">
-            <h3 class="block-title">
-              Block Title
-            </h3>
+      <div class="col-md-6 col-xl-3">
+        <a class="block block-rounded block-link-shadow text-center" href="javascript:void(0)">
+          <div class="block-content block-content-full bg-gd-aqua">
+            <img class="img-avatar img-avatar-thumb" src="{{ asset('media/avatars/avatar15.jpg') }}" alt="">
           </div>
-          <div class="block-content font-size-sm text-muted">
-            <p>
-              ...
+          <div class="block-content block-content-full">
+            <p class="fw-semibold mb-0">Дмитрий Бауэр</p>
+            <p class="fs-sm fw-medium text-muted mb-0">
+              Администратор
             </p>
           </div>
-        </div>
+        </a>
       </div>
+      <div class="col-md-6 col-xl-3">
+        <a class="block block-rounded block-link-shadow text-center" href="javascript:void(0)">
+          <div class="block-content block-content-full bg-dark">
+            <img class="img-avatar img-avatar-thumb" src="{{ asset('media/avatars/avatar15.jpg') }}" alt="">
+          </div>
+          <div class="block-content block-content-full">
+            <p class="fw-semibold mb-0">Андрей П.</p>
+            <p class="fs-sm fw-medium text-muted mb-0">
+              Рекрутер
+            </p>
+          </div>
+        </a>
+      </div>
+
     </div>
   </div>
   <!-- END Page Content -->

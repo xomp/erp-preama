@@ -22,7 +22,7 @@
 		<!-- For more info and examples you can check out https://github.com/jzaefferer/jquery-validation -->
 		<div class="row g-0 justify-content-center">
 			<div class="col-sm-8 col-xl-6">
-			<form class="js-validation-signin" action="" method="POST" novalidate="novalidate">
+			<form class="js-validation-signin" action="/dashboard" method="GET" novalidate="novalidate">
 				@csrf
 				<div class="py-3">
 				<div class="mb-4">
