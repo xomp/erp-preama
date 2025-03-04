@@ -6,7 +6,7 @@
 		<!-- <i class="fa fa-heart text-danger"></i> -->
 		</div>
 		<div class="col-sm-6 order-sm-1 text-center text-sm-start">
-		Preama ERP
+		Preama Work ©
 		<span data-toggle="year-copy"></span>
 		</div>
 	</div>

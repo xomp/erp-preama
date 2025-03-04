@@ -15,11 +15,12 @@
     <div class="d-md-flex justify-content-md-between align-items-md-center py-3 pt-md-3 pb-md-0 text-center text-md-start">
       <div>
         <h1 class="h3 mb-1">Главная</h1>
+        <br><p>Выберите в боковом меню нужный раздел</p>
       </div>
     </div>
   </div>
 
-  <div class="content">
+  <div class="content" style="display: none;">
     <div class="row items-push">
       <div class="col-sm-6 col-xl-3">
         <div class="block block-rounded text-center d-flex flex-column h-100 mb-0">
@@ -109,7 +110,7 @@
   </div>
 
   <!-- Orders Overview -->
-  <div class="content">
+  <div class="content" style="display: none;">
     <div class="block block-rounded">
       <div class="block-header block-header-default">
         <h3 class="block-title">Статистика за неделю</h3>

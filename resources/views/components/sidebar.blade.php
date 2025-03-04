@@ -19,7 +19,7 @@
 	<div class="content-header bg-white-5">
 		<!-- Logo -->
 		<a class="fw-semibold text-white tracking-wide" href="/">
-		<span class="text-uppercase">Preama ERP</span>
+			<span class="text-uppercase">Preama Work</span>
 		</a>
 		<!-- END Logo -->
 	</div>
@@ -28,6 +28,18 @@
 
 	<!-- Sidebar Scrolling -->
 	<div class="js-sidebar-scroll">
+		<div class="smini-hidden">
+			<div class="content-side content-side-full d-flex align-items-center bg-body-light" style="border-bottom: 1px solid #ddd;">
+				<a class="img-link d-inline-block" href="javascript:void(0)">
+					<img class="img-avatar img-avatar48 img-avatar-thumb" src="{{ asset('media/avatars/avatar0.jpg') }}" alt="">
+				</a>
+				<div class="ms-3">
+					<a class="fw-semibold" href="javascript:void(0)">Дмитрий</a>
+					<div class="fs-sm">+7 (913) 750-49-06</div>
+				</div>
+			</div>
+		</div>
+		
 		@include('components.nav')
 	</div>
 	<!-- END Sidebar Scrolling -->

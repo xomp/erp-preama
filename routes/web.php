@@ -29,6 +29,28 @@ Route::get('/deals/{pipeline?}', function($pipeline = 'Все сделки'){
     return view('pages.deals', ['pipeline' => $pipeline]);
 });
 
+Route::view('/orders', 'pages.orders');
+Route::name('customers')->group(function () {
+    Route::view('/customers', 'pages.customers');
+    Route::view('/customers-people', 'pages.customers-people');
+    Route::view('/invoices', 'pages.invoices');
+    Route::view('/objects', 'pages.objects');
+});
+Route::prefix('shifts')->name('shifts')->group(function () {
+    Route::view('/search', 'pages.shifts.search');
+});
+Route::name('workers')->group(function () {
+    Route::view('/workers', 'pages.workers');
+    Route::view('/verifications', 'pages.verifications');
+    Route::view('/tags', 'pages.tags');
+    Route::view('/professions', 'pages.professions');
+    Route::view('/tax-cabinet', 'pages.tax-cabinet');
+});
+Route::name('operators')->group(function () {
+    Route::view('/customer-operators', 'pages.customer-operators');
+    Route::view('/operators', 'pages.operators');
+});
+
 Route::view('/sources', 'pages.sources');
 Route::view('/conversion', 'pages.conversion');
 Route::view('/candidates', 'pages.candidates');

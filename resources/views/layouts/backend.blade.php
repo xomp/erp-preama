@@ -5,14 +5,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
-  <title>Preama ERP</title>
+  <title>Preama Work</title>
 
   <!-- Icons -->
   <link rel="icon" href="{{ asset('favicon.ico') }}">
 
   <!-- Modules -->
   @yield('css')
-  @vite(['resources/sass/main.scss', 'resources/js/dashmix/app.js'])
+  @vite(['resources/sass/main.scss', 'resources/js/dashmix/app.js', 'resources/js/app.js'])
 
   <!-- Alternatively, you can also include a specific color theme after the main stylesheet to alter the default color theme of the template -->
   {{-- @vite(['resources/sass/main.scss', 'resources/sass/dashmix/themes/xwork.scss', 'resources/js/dashmix/app.js']) --}}
@@ -71,7 +71,8 @@
       'sidebar-dark page-header-dark dark-mode'   Enable dark mode (light sidebar/header is not supported with dark mode)
   -->
   --}}
-  <div id="page-container" class="sidebar-o enable-page-overlay sidebar-dark side-scroll page-header-fixed main-content-narrow">
+  <div id="page-container" class="sidebar-o enable-page-overlay side-scroll page-header-fixed page-header-dark">
+  <!-- <div id="page-container" class="sidebar-o enable-page-overlay sidebar-dark side-scroll page-header-fixed main-content-narrow"> -->
     
     @include('components.sidebar')
     
